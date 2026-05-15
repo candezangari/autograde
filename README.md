@@ -34,6 +34,12 @@ uv sync
 uv run autograde /path/to/target-repo
 ```
 
+You can also pass a Git repository URL directly:
+
+```bash
+uv run autograde https://github.com/owner/repo
+```
+
 **Example output:**
 
 ```
